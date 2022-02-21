@@ -1,13 +1,9 @@
 package verificacionUsuario;
 
-public class VerificacionUsuario {
+public class VerificacionUsuariosUtil {
+    public VerificacionUsuariosUtil(){}
 
-    VerificacionUsuariosPermisos verificacionUsuariosPermisos;
-
-    public VerificacionUsuario() { verificacionUsuariosPermisos = new VerificacionUsuariosPermisos();}
-
-    public VerificacionUsuario(VerificacionUsuariosPermisos objetoMockeado){ verificacionUsuariosPermisos = objetoMockeado;}
-
-
-
+    public String verificacionUsuarios(String user){
+        return "T";
+    }
 }
